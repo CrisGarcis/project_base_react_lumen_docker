@@ -1,0 +1,57 @@
+.content-entity-admin {
+  background-color: #e9edf6;
+  height: 563px;
+}
+.content-permissions {
+  padding: 8px;
+}
+.table-list-admin > .react-tabs__tab--selected {
+  background-color: #d2d6de;
+  border: 0;
+  border-radius: 0;
+  color: #59565b;
+}
+.tab-general-permissions {
+  margin: 10px;
+}
+.txt-search-admin {
+  outline: none;
+  text-decoration: none;
+  background-color: #eff4f7;
+
+  border: none;
+  padding: 10px;
+  margin-top: 11px;
+}
+.btn-new-entity-admin {
+  padding: 8px;
+}
+.content-list-entity-search {
+  height: 404px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  overflow: auto;
+}
+.ul-general-entity-admin > li {
+  color: #51555e;
+  padding: 9px;
+}
+.item-active-admin {
+  background-color: #d2d6de;
+}
+.content-permission-role {
+  overflow: scroll;
+  height: 478px;
+}
+.form-policys {
+  width: 700px;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  margin-left: 100px;
+  border: 15px solid rgb(233, 231, 231);
+  background-color: #fff;
+}
+.component-form-policys {
+  display: flex;
+}

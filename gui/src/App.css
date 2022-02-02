@@ -1,0 +1,256 @@
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url(../src/fonts/AvenirHeavyFont.ttf) format("truetype");
+}
+@font-face {
+  font-family: Avenir-Medium;
+  src: url(../src/fonts/AvenirMediumFont.ttf) format("truetype");
+}
+@font-face {
+  font-family: Avenir-Roman;
+  src: url(../src/fonts/AvenirRomanFont.otf) format("truetype");
+}
+@font-face {
+  font-family: Copper-Plate;
+  src: url(../src/fonts/Copperplate.ttc) format("truetype");
+}
+.font-title {
+  font-family: Avenir-Heavy;
+}
+.font-crhonos{
+  font-family: Copper-Plate;
+}
+.font-description {
+  font-family: Avenir-Medium;
+}
+.font-button {
+  font-family: Avenir-Roman;
+}
+.txt-capitalize {
+  text-transform: capitalize;
+}
+.txt-lower {
+  text-transform: lowercase;
+}
+.flex {
+  display: flex;
+}
+.w-100 {
+  width: 100%;
+}
+.flex-1 {
+  flex-grow: 1;
+}
+.flex-0 {
+  flex-grow: 0;
+}
+.nav-breadcrumb-default {
+  margin-top: 12px;
+  font-size: 19px;
+}
+.btn-default-create {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 15px;
+  border: none;
+  text-align: center;
+  background: #264a6d;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Avenir-Roman;
+}
+.no-link {
+  text-decoration: none !important;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-betwen {
+  justify-content: space-between;
+}
+.margin-auto {
+  margin: auto;
+}
+.margin-3 {
+  margin: 3px;
+}
+.justify-center {
+  justify-content: center;
+}
+.aling-center {
+  align-items: center;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-left {
+  text-align: left;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.app-bg {
+  background: #264a6d;
+}
+.cursor-action {
+  cursor: pointer;
+}
+.app-color {
+  color: #264a6d;
+}
+.white {
+  color: white;
+}
+.app-color-black {
+  color: #414042;
+}
+.app-color-gray-white {
+  color: #d1d3d4;
+}
+.app-bg-color-gray-white {
+  background: #d1d3d4;
+}
+.float-left {
+  float: left;
+}
+.row-app {
+  display: flex;
+  flex-wrap: wrap;
+}
+.app-btn-default {
+  background: #264a6d;
+  color: white;
+  border: none;
+  display: flex;
+  border-radius: 7px;
+  padding: 2px;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-family: Avenir-Roman;
+}
+.standard-index-table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+.standard-index-table thead tr td {
+  border: #d1d3d4 solid 1px;
+  border-radius: 6px;
+  padding-right: 6px;
+  padding-left: 6px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Avenir-Medium;
+}
+
+
+
+
+.standard-index-table tbody tr {
+  text-align: center;
+  font-size: 14px;
+}
+td.auto-width {
+  width: 1px;
+  white-space: nowrap;
+}
+.back-document {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  overflow: auto;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+}
+.select-min-widht {
+  min-width: 243px;
+}
+.back-document > div {
+  margin-top: 100px;
+}
+.modal-standard-app {
+  border: #d1d3d4 solid 1px;
+  padding: 12px;
+  background-color: white;
+  height: min-content;
+  border-radius: 12px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.form-group-app {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+.form-group-app input,
+textarea {
+  border: #d1d3d4 solid 1px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px;
+}
+.form-group-app input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.container-app {
+  justify-content: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.default-border-gray-app {
+  border: #d1d3d4 solid 1px;
+  border-radius: 11px;
+  padding-right: 6px;
+  padding-left: 6px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Avenir-Medium;
+  outline: none;
+}
+.input-no-view-app {
+  border: none;
+  outline: none;
+}
+.hover-link-app:hover {
+  text-decoration-line: underline;
+  filter: brightness(0.5);
+}
+.hidden {
+  display: none;
+}
+.btn-close-modal{
+  font-size: 23px;
+}
+.bread-crumb-default-app{
+  margin-top: 12px;
+}
+.fc .fc-button-primary{
+  background-color: #264a6d;
+}
+@media (max-width: 414px) and (max-height: 812px) {
+  .size-1-mobile {
+    font-size: 12px;
+  }
+  .size-2-mobile {
+    font-size: 10px;
+  }
+}

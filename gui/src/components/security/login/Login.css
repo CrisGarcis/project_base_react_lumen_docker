@@ -1,0 +1,165 @@
+.general-div-login {
+  background-color: rgb(48, 85, 121);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url("../../../images/login/Fondo-Login.jpg");
+}
+.general-central-login {
+  margin: auto;
+  width: 350px;
+  height: 390px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 23px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.logo-login {
+  width: 75%;
+  height: 80%;
+
+  background-image: url("../../../images/login/Logo-Login.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.content-white-logo-login {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -62px;
+  right: 105px;
+  border-radius: 100%;
+  justify-content: center;
+  background: white;
+}
+.input-login{
+font-size: 18px;
+font-size: 18px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: -webkit-fill-available;
+}
+.title-login {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+.title-app-login{
+  margin-top: 42px;
+}
+.content-form-login {
+  padding: 30px;
+}
+.input-login-default {
+  width: 100%;
+  padding: 3px;
+  border-radius: 27px;
+  height: 44px;
+  border: 1px solid rgb(182, 182, 182);
+}
+.input-login-default > div {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  border-radius: 100%;
+  background-color: #264a6d;
+}
+.icon-user-login{
+    background-image: url("../../../images/login/Username.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 41%;
+    margin: auto;
+    height: 50%;
+}
+.icon-pass-login{
+    background-image: url("../../../images/login/pass-ico.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 41%;
+    margin: auto;
+    height: 50%;
+}
+.resetpass-login-text{
+  color:#d1d3d4 !important
+}
+.input-login-default > div>input {
+  border: none;
+  padding-left: 12px;
+  outline: none;
+}
+.content-remember-pass-login {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.btn-log-in{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  padding-bottom: 5px;
+
+}
+.logo-crhonos-login{
+  position: absolute;
+  width: 130px;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  
+}
+.container-select-plant{
+  position: absolute !important;
+}
+.select-plant-select{
+  margin-top: 34px;
+  width:260px;
+}
+.logo-app-select-plant{
+  width: 136px;
+  height: 146px;
+  background-image: url("../../../images/LogoBlanco.png");
+  background-size: 100% 100%;
+  margin-bottom: 12px;
+}
+.select-plant-select .css-5duvv3-control{
+  border-radius: 18px;
+}
+
+.select-plant-select .css-5duvv3-control .css-1wa3eu0-placeholder{
+
+  color:#264a6d ;
+}
+
+@media (max-width: 414px) and (max-height: 812px) {
+  .general-central-login{
+    width: 285px;
+    height: 345px;
+  } 
+  .logo-login{
+    width: 57%;
+    height: 62%;
+  }
+  .content-white-logo-login {
+    width: 99px;
+    height: 99px;
+    top: -45px;
+    right: 94px;
+  }
+  .title-app-login{
+margin-top: 17px;
+  }
+  .resetpass-login-text{
+font-size: 14px;
+  }
+  .record-pass-app{
+    font-size: 14px;
+  }
+  .input-login{
+font-size: 13px;
+  }
+}

@@ -1,0 +1,98 @@
+.menu-zeus {
+
+  width: 277px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.icon-crhonos-menu{
+  background-image: url("../../../images/menu/LogoCrhonos.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 33px;
+}
+.text-crhonos-menu{
+  font-family: Copper-Plate;
+  color: white;
+  font-size: 23px;
+  
+}
+.container-menu-name-plant{
+  padding:4px;
+  margin-top: 92px;
+  border-bottom: dashed;
+}
+.list-option-menu{
+  padding-left: 14px;
+  padding-top: 8px;
+  display: flex;
+  padding-bottom: 4px;
+  cursor: pointer;
+
+}
+.container-cronos-menu{
+  background-color: black;
+  height: 44px;
+  cursor: pointer;
+}
+.icon-down-menu-app{
+  padding-right: 12px;
+  margin: auto;
+}
+.space-icon-menu-app{
+  width: 35px;
+}
+.icon-menu-left{
+  width: 23px;
+  height: 23px;
+  margin-right: 12px;
+}
+.list-menu-left{
+  overflow-y: auto;
+  width: 100%;
+  color: white;
+ 
+}
+.line-botton-menu{
+  border-bottom: white solid 2px;
+}
+.subline-botton-menu{
+  border-bottom: white solid 0.5px;
+}
+.container-logout-menu{
+height: 44px;
+font-size: 23px;
+cursor:pointer
+}
+
+
+.logout-text {
+  font-size: 22px;
+}
+
+.menu-collapse-left {
+  height: 100%;
+  margin: auto;
+  font-size: 43px;
+  margin-left: 3px;
+}
+
+.toggle-div {
+  width: 30px;
+}
+.icon-logout {
+  width: 23px;
+}
+
+@media (max-width: 414px) and (max-height: 812px) {
+  .toggle-div {
+    display: none;
+  }
+  .container-menu-name-plant{
+    margin-top: 57px;
+    font-size: 4vw;
+    
+  }
+}
